@@ -18,3 +18,7 @@ print(forfattere)
 print(forfattere[2:])
 
 
+index = len(forfattere)-1
+while index >= 0:
+    print(forfattere[index])
+    index -= 1
